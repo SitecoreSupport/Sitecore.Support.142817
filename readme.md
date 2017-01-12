@@ -1,8 +1,6 @@
 # Sitecore.Support.142817
 If you use 'IoC factory' in the pipeline with the following entry:
-
 type="1" factory="ContainerFactory" ref="MyProject.MyPageResolver, MyProject"
-
 You get an error: 
 Exception Details: Sitecore.Exceptions.InvalidStructureException: No group node for sub node: httpRequestBegin
 
